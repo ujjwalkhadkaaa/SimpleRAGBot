@@ -74,4 +74,4 @@ if prompt := st.chat_input("What is up?"):
             messages.append({"role": "assistant", "content": response})
 
         except Exception as e:
-            print(f"An error occurred: {e}")
+            print(f"An error occured: {e}")
